@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApps">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="Images/radiogag.png">
+    <link rel="stylesheet" href="style.css">
+  
+    
+    <title>Fanmade Website</title>
+</head>
+<body ng-controller="myCTRL">
+       
+    <div class="container"> 
+        <script src="./Script/angular.js"></script>
+        <script src="./Script/main.js"></script>
+        <script src="./Script/angular-route.min.js"></script>
+        <div class="overlay" id="mynav">
+            <a href="javascript:void(0)" class="clsbtn" ng-click="closeNav()">&times</a>
+            <div class="overlay-content">
+                <a href="#">About</a>
+                <a href="#">Events</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Sponsor</a>
+            </div>
+        </div>
+        <div class="box" id="the1975"   ng-click="scrollTo('the1975')">
+            <span class="pan" ng-click="openNav()">&#9776;</span>
+            <button class="mtbtn btn-grad"><a href="The1975/index.html">goto page</a> </button>
+            <div class="tagline">
+                <h1>Welcome to <span class="colorchange">THE 1975.</span></h1>
+                <p>Click here below to listen.</p>
+                <div class="cent">
+                <ul class="ping">
+                    <li><a href="https://www.spotify.com" onClick="fb()"><img src="png/012-spotify.png"/></a></li>
+                    <li><a href="https://www.pinterest.ph/emrosefeld/the-1975/" onClick="pinterest()"><img src="png/021-pinterest.png"/></a> </li>
+                    <li><a href="https://www.youtube.com/user/The1975music" onClick="youtube()"><img src="png/001-youtube.png"/></a> </li>
+                    </ul>
+                </div>
+            </div>
+            <footer class="footman">
+                    The 1975, Copyright &copy; 2020
+                </footer>
+        </div>
+        <div class="box2" id="lany"   ng-click="scrollTo('lany')">
+                <span class="pan" ng-click="openNav()">&#9776;</span>
+            <button class="mtbtn btn-grad"><a href="Lany/index.html">goto page</a> </button>
+            <div class="tagline">
+                <h1>Welcome to <span class="colorchange">L A N Y</span></h1>
+                <p>Click here below to listen.</p>
+                <div class="cent">
+                <ul class="ping">
+                    <li><a href="https://www.spotify.com" onClick="fb()"><img src="png/012-spotify.png"/></a></li>
+                    <li><a href="https://www.pinterest.ph/emrosefeld/the-1975/" onClick="pinterest()"><img src="png/021-pinterest.png"/></a> </li>
+                    <li><a href="https://www.youtube.com/user/The1975music" onClick="youtube()"><img src="png/001-youtube.png"/></a> </li>
+                    </ul>
+                </div>
+            </div>
+            <footer class="footman">
+                    Lany, Copyright &copy; 2020
+                </footer>
+        </div>
+        <div class="box3"  id="blink"   ng-click="scrollTo('blink')">
+                <span class="pan" ng-click="openNav()">&#9776;</span>
+            <button class="mtbtn btn-grad"><a href="Blink182/index.html">goto page</a> </button>
+            <div class="tagline">
+                <h1>Welcome to <span class="colorchange">BLINK-182</span></h1>
+                <p>Click here below to listen.</p>
+                <div class="cent">
+                <ul class="ping">
+                    <li><a href="https://www.spotify.com" onClick="fb()"><img src="png/012-spotify.png"/></a></li>
+                    <li><a href="https://www.pinterest.ph/emrosefeld/the-1975/" onClick="pinterest()"><img src="png/021-pinterest.png"/></a> </li>
+                    <li><a href="https://www.youtube.com/user/The1975music" onClick="youtube()"><img src="png/001-youtube.png"/></a> </li>
+                    </ul>
+                </div>
+            </div>
+            <footer class="footman">
+                    Blink-182, Copyright &copy; 2020
+                </footer>
+           
+        </div>
+        <div class="box4"  id="kend"   ng-click="scrollTo('kend')">
+                <span class="pan" ng-click="openNav()">&#9776;</span>
+            <button class="mtbtn btn-grad"><a href="KendrickLamar/index.html">goto page</a> </button>
+            <div class="tagline">
+                <h1>Welcome to <br><span class="colorchange">KENDRICK LAMAR</span></h1>
+                <p>Click here below to listen.</p>
+                <div class="cent">
+                <ul class="ping">
+                    <li><a href="https://www.spotify.com" onClick="fb()"><img src="png/012-spotify.png"/></a></li>
+                    <li><a href="https://www.pinterest.ph/emrosefeld/the-1975/" onClick="pinterest()"><img src="png/021-pinterest.png"/></a> </li>
+                    <li><a href="https://www.youtube.com/user/The1975music" onClick="youtube()"><img src="png/001-youtube.png"/></a> </li>
+                    </ul>
+                </div>
+            </div>
+            <footer class="footman">
+                    Kendrick Lamar, Copyright &copy; 2020
+                </footer>
+        </div>
+        <div class="box5"  id="bone"  ng-click="scrollTo('bone')">
+                <span class="pan" ng-click="openNav()">&#9776;</span>
+            <button class="mtbtn btn-grad" ><a href="BoneThugs/index.html">goto page</a> </button>
+            <div class="tagline">
+                <h1>Welcome to <br><span class="colorchange">BONE THUGS N HARMONY</span></h1>
+                <p>Click here below to listen.</p>
+                <div class="cent">
+                <ul class="ping">
+                    <li><a href="https://www.spotify.com" onClick="fb()"><img src="png/012-spotify.png"/></a></li>
+                    <li><a href="https://www.pinterest.ph/emrosefeld/the-1975/" onClick="pinterest()"><img src="png/021-pinterest.png"/></a> </li>
+                    <li><a href="https://www.youtube.com/user/The1975music" onClick="youtube()"><img src="png/001-youtube.png"/></a> </li>
+                    </ul>
+                </div>
+            </div><footer class="footman">
+                    Bone Thugs n Harmony, Copyright &copy; 2020
+                </footer>
+           
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+.header{
+    background:linear-gradient(rgba(69,41,81,0.8), rgba(69,48,81,0.8)),url(Images/blackcover.png);
+    background-size: cover;
+}
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:rgb(0,0,0);
+    background-color:rgba(0,0,0,0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1;
+}
+.overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.7s;
+}
+ .overlay a:hover, .overlay a:focus{
+    color: cyan;
+    font-size: 40px;
+    text-shadow: 0 0 10px rgba(255,255,255,0.1),
+                0 0 20px rgba(255,255,255,0.8),
+                0 0 40px rgba(255,255,255,0.1),
+                0 0 80px rgba(255,255,255,0.2),
+                0 0 160px rgba(255,255,255,0.9);
+} 
+.overlay .clsbtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+
+}
+.pan{
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.box{
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.4)),url(Images/brain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.box2{
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.4)),url(Images/ppPvFbZ.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.box3{
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.4)),url(Images/signo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.box4{
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.4)),url(Images/thebig4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.box5{
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.4)),url(Images/roses.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+/* .tagline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+h1{
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    font-size: 3.0rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 10px rgba(255,255,255,0.1),
+                0 0 20px rgba(255,255,255,0.8),
+                0 0 40px rgba(255,255,255,0.1),
+                0 0 80px rgba(255,255,255,0.2),
+                0 0 160px rgba(255,255,255,0.9);
+}
+p{
+    margin-top: 10px;
+    /* text-align: center; */
+    color: #ddd;
+    font-size: 1.3rem;
+    text-shadow: 0 0 10px rgba(255,255,255,0.1),
+                0 0 20px rgba(255,255,255,0.8),
+                0 0 40px rgba(255,255,255,0.1),
+                0 0 80px rgba(255,255,255,0.2),
+                0 0 160px rgba(255,255,255,0.9);
+}
+.mtbtn{
+    border-bottom: none;
+    cursor: pointer;
+    position: absolute;
+    margin: 30px;
+    padding: 10px 30px 10px 30px;
+    top: 20%;
+    left: 75%;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #bf55ec;
+    background-size: 200%;
+    font-size: 20px;
+} 
+.btn-grad{
+    background-image: linear-gradient(to right, rgba(253, 135, 214, 0.842) 0%, rgb(251, 87, 216) 51%, rgba(255, 31, 225, 0.568) 100%)
+}
+.btn-grad:hover{
+    background-position: right center;
+}
+.colorchange{
+    animation: colorchange 1s infinite;
+
+}
+@keyframes colorchange{
+    0%{color: rgb(231, 145, 217)}
+    25%{color: #e0a1e2}
+    50%{color: #cf9191}
+    75%{color: #b85da1}
+    100%{color: #ffffff}
+}
+.ping img{
+    width:55px;
+    height: 55px;
+}
+.ping li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 18px;
+}
+.cent{
+    margin-top: 20px;
+    /* display: flex;
+    justify-content: center; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.tagline{
+    padding-bottom: 150px;
+    width: 1180px;
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 50%;
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%, -50%);
+}
+.tagline p{
+    color: #fff;
+    font-weight: inherit;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.footman{
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

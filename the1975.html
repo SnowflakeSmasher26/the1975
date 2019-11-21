@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"  ng-app="myApps">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../Images/radiogag.png">
+    <title>The 1975</title>
+</head>
+<body>
+        <div class="box" ng-controller="myCTRL">
+                <script src="angular.js"></script>
+                <script src="main.js"></script>
+                <script src="angular-route.min.js"></script>
+                <div class="overlay" id="mynav">
+                    <a href="javascript:void(0)" class="clsbtn" ng-click="closeNav()">&times</a>
+                    <div class="overlay-content">
+                        <a href="../../Tupac/Tupac/tupacpage.html">Tupac</a>
+                        <a href="../../Blink/Blink/blink192.html">Blink-182</a>
+                        <a href="../../Lamar/Kendrick/coverkendrick.html">Kendrick Lamar</a>
+                        <a href="../../Eminem/Eminem/eminempage.html">Eminem</a>
+                    </div>
+                </div>
+                <span class="pan" ng-click="openNav()">&#9776;</span>
+                <button class="mtbtn btn-grad"><a href="../The1975/index.html">goto page</a> </button>
+                <div class="tagline">
+                    <h1>Welcome to <span class="colorchange">THE 1975.</span></h1>
+                    <p>Click here below to listen.</p>
+                    <div class="cent">
+                    <ul class="ping">
+                        <li><a href="https://www.spotify.com" onClick="fb()"><img src="../png/012-spotify.png"/></a></li>
+                        <li><a href="https://www.pinterest.ph/emrosefeld/the-1975/" onClick="pinterest()"><img src="../png/021-pinterest.png"/></a> </li>
+                        <li><a href="https://www.youtube.com/user/The1975music" onClick="youtube()"><img src="../png/001-youtube.png"/></a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <footer class="footman">
+                        The 1975, Copyright &copy; 2020
+                    </footer>
+</body>
+</html>
